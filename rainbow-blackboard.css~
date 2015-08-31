@@ -11,13 +11,11 @@
 pre {
     background: #272822;
     word-wrap: break-word;
-    margin: 20px auto;
+    margin: 0px;
     padding: 10px;
     color: #fff;
     font-size: 14px;
-    max-width: auto;
-    min-width: auto;
-    width: auto;
+    margin-bottom: 20px;
 }
 
 pre, code {

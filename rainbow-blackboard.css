@@ -15,8 +15,9 @@ pre {
     padding: 10px;
     color: #fff;
     font-size: 14px;
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 pre, code {

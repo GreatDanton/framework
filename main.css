@@ -22,7 +22,7 @@ body {
 /* make sure to include google fonts link on the page */
 p {
   font-size: 14px;
-  font-family: "Droid-Sans", sans-serif;
+  font-family: "Droid Sans", sans-serif;
   line-height: 1.5;
   text-align: justify;
   margin-bottom: 1.61em; }
@@ -159,7 +159,8 @@ button.normal:hover {
 
 .container-centered {
   max-width: 1000px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 20px 5px; }
 
 .row {
   width: 100%; }
@@ -266,8 +267,12 @@ footer {
   /* not finished yet */
   width: 100%;
   background-color: #1b1c1d;
-  min-height: 85px;
-  color: #fff; }
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 120px; }
 
 .arrow-left {
   height: 0;
