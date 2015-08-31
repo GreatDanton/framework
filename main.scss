@@ -32,7 +32,7 @@ body {
 /* make sure to include google fonts link on the page */
 p {
   font-size: 14px;
-  font-family: "Droid-Sans", sans-serif;
+  font-family: "Droid Sans", sans-serif;
   line-height: 1.5;
   text-align: justify;
   margin-bottom: 1.61em;
@@ -204,6 +204,7 @@ button.normal {
 .container-centered {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 20px 5px;
   }
 
 .row {
@@ -321,8 +322,9 @@ button.normal {
 footer { /* not finished yet */
   width: 100%;
   background-color: $background-color-navbar;
-  min-height: 85px;
   color: #fff; 
+  display: flex;
+  min-height: 120px;
 }
 
 .arrow-left {
